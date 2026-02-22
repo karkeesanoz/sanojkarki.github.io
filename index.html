@@ -1,11 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <title>Your Name</title>
-  <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 900px; margin: 0 auto; padding: 40px; line-height: 1.6; }
+    header { margin-bottom: 30px; }
+    nav a { margin-right: 14px; text-decoration: none; }
+    .card { padding: 18px; border: 1px solid #ddd; border-radius: 10px; margin: 14px 0; }
+  </style>
 </head>
 <body>
-  <h1>Your Name</h1>
-  <p>PhD Candidate | Researcher | Engineer</p>
+  <header>
+    <h1>Your Name</h1>
+    <p>PhD Student | Researcher | Engineer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="card">
+    <h2>About</h2>
+    <p>Write 3–5 lines about your background and focus area.</p>
+  </section>
+
+  <section id="research" class="card">
+    <h2>Research</h2>
+    <ul>
+      <li>Project 1 — one-line description</li>
+      <li>Project 2 — one-line description</li>
+    </ul>
+  </section>
+
+  <section id="publications" class="card">
+    <h2>Publications</h2>
+    <p>Add citations or links here.</p>
+  </section>
+
+  <section id="contact" class="card">
+    <h2>Contact</h2>
+    <p>Email: yourname@email.com</p>
+    <p>GitHub: <a href="https://github.com/YOUR_USERNAME">YOUR_USERNAME</a></p>
+    <p>LinkedIn: <a href="#">your-link</a></p>
+  </section>
 </body>
 </html>
